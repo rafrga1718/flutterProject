@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:proyect/Login.dart';
 import 'package:proyect/Tabs/Profile.dart';
+import 'package:proyect/Tabs/PerfilLocal.dart';
 void main() {
   runApp(new TabBarDemo());
 }
@@ -28,7 +29,7 @@ class TabBarDemo extends StatelessWidget {
           body: new TabBarView(
             children: [
               new Login(),
-              new Icon(Icons.directions_bike),
+              new PerfilLocal(),
               new Icon(Icons.directions_bike),
               new Icon(Icons.directions_bus),
               new Profile(),
