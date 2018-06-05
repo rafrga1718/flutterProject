@@ -91,11 +91,11 @@ class PerfilLocal extends StatelessWidget {
               child:
               new Row(
                 children: <Widget>[
-                  new Icon(Icons.phone_forwarded),
+                  new Icon(Icons.phone_forwarded, color: Colors.black87),
                   new Container(
                     margin: const EdgeInsets.only(left: 32.0),
                     child:
-                      new Icon(Icons.email),
+                      new Icon(Icons.email,color: Colors.black87),
                   )
 
                 ],
